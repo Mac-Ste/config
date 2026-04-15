@@ -44,3 +44,8 @@ check_or_install imagemagick
 check_or_install ghostscript
 
 check_or_install ghostty
+
+check_or_install stow
+
+stow .
+tmux source-file ~/.config/tmux/tmux.conf
