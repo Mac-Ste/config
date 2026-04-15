@@ -25,6 +25,9 @@ check_or_install() {
   fi
 }
 
+# Remove old .zshenv if exists
+ln -sf .zshenv ~/.zshenv
+
 check_or_install tmux
 
 check_or_install neovim
