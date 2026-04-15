@@ -25,9 +25,6 @@ check_or_install() {
   fi
 }
 
-# Remove old .zshenv if exists
-ln -sf .zshenv ~/.zshenv
-
 check_or_install tmux
 
 check_or_install neovim
@@ -50,5 +47,5 @@ check_or_install ghostty
 
 check_or_install stow
 
-stow .
-tmux source-file ~/.config/tmux/tmux.conf
+stow */
+tmux source-file ~/tmux.conf
