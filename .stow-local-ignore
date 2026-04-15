@@ -1,0 +1,6 @@
+.git
+.gitignore
+.DS_Store
+.stowrc
+README.md
+install.sh
