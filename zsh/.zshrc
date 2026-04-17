@@ -13,7 +13,11 @@ fi
 # bat alias for cat if installed
 command -v bat &>/dev/null && alias cat='bat'
 
-alias la=tree
+# Eza
+alias l="eza -l --icons --git -a"
+alias lt="eza --tree --level=2 --long --icons --git --all"
+alias ltree="eza --tree --level=2  --icons --git --all"
+alias ltf="eza --tree --icons --git --all"
 
 # Dirs
 alias ..="cd .."
@@ -22,10 +26,12 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias ......="cd ../../../../.."
 
+
 # Git
 alias gc="git commit"
 alias gcm="git commit -m"
 alias gcam="git commit -a -m"
+# -> need to migrate it into function
 alias gpsup="git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)"
 alias gp="git push origin HEAD"
 alias gpu="git pull origin"
