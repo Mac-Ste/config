@@ -4,7 +4,7 @@ palette = "catppuccin_mocha"
 command_timeout = 1000
 
 [character]
-vicmd_symbol = "[N] >>>"
+vicmd_symbol = '[N>>>](bold green)'
 success_symbol = '[➜](bold green)'
 
 

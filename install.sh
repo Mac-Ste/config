@@ -45,6 +45,9 @@ check_or_install ghostscript
 
 check_or_install ghostty
 
+check_or_install eza
+check_or_install bat
+
 check_or_install starship
 check_or_install font-jetbrains-mono-nerd-font
 
