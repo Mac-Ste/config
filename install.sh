@@ -45,7 +45,11 @@ check_or_install ghostscript
 
 check_or_install ghostty
 
+check_or_install starship
+check_or_install font-jetbrains-mono-nerd-font
+
 check_or_install asmvik/formulae/skhd
+
 check_or_install stow
 
 stow */
