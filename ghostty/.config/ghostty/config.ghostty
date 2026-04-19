@@ -3,3 +3,4 @@ theme = Catppuccin Mocha
 background-blur=macos-glass-regular
 mouse-hide-while-typing = true
 window-decoration = false
+macos-option-as-alt = true

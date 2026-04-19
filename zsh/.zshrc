@@ -1,4 +1,4 @@
-
+export XDG_CONFIG_HOME="~/.config"
 bindkey '^L' vi-forward-word
 bindkey '^H' vi-backward-word
 bindkey jj vi-cmd-mode
@@ -52,5 +52,6 @@ function y() {
 	rm -f -- "$tmp"
 }
 
+source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 eval "$(starship init zsh)"
