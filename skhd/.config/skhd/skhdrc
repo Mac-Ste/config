@@ -1,0 +1,10 @@
+# ======================
+# App
+# ======================
+
+
+# Ghostty
+hyper - 1 : open -a "Ghostty" 
+
+# Chrome 
+hyper - 2 : open -a "Google Chrome" 
